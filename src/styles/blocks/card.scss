@@ -56,6 +56,11 @@
        display: flex;
        align-items: center;
        justify-content: space-between;
+       &__icon {
+         width: 10.53px;
+         height: 9.58px;
+         fill: $main-color;
+       }
      }
    &__label {
      font-family: 'Mulish';
@@ -84,6 +89,11 @@
    }
    .activities {
      display: none;
+     &__icon {
+        max-width: 21px;
+        max-height: 21px;
+        fill: #757575;
+     }
    }
    &:hover {
      .activities {

@@ -48,9 +48,14 @@
       color: $main-color;
       margin-right: 20px;
       text-decoration: none;
-      img {
-         margin-right: 4px;
-      }
+   }
+
+   &__icon {
+      display: block;
+      width: 14px;
+      height: 14px;
+      fill: $main-color;
+      margin-right: 4px;
    }
 
    &__date {

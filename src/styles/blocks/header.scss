@@ -42,6 +42,7 @@
         line-height: 19px;
         color: inherit;
         margin-left: 20px;
+        text-decoration: none;
     }
 
     
@@ -85,6 +86,7 @@
         border: none;
         line-height: 17px;
         color: #555555;
+        background-color: #fff;
         border-left: 1.5px solid rgba(227, 227, 227, 0.78);
         cursor: pointer;
     }
@@ -103,6 +105,11 @@
         &__item {
             width: 21px;
             height: 21px;
+        }
+        &__icon {
+           width: 24px;
+           height: 24px;
+           fill: #555555;
         }
     }
 

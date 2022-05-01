@@ -62,7 +62,6 @@
     align-items: center;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     display: flex;
     align-items: center;
     color: #757575;
@@ -70,14 +69,10 @@
   }
 
   &__icon {
+     display: block;
     margin-left: 3px;
     width: 11px;
     height: 9px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    color: #757575;
+    fill: #757575;
       }
 }
