@@ -5,10 +5,15 @@
    &__wrapper {
       display: flex;
       align-items: center;
+      justify-content: center;
       margin-left: auto;
       height: 100%;
       width: 899px;
       background: rgba(241, 250, 255, 0.88);
+      transition: all 0.3s linear;
+      &--active {
+         width: 899px;
+      }
    }
    &-slider {
       height: 100%;
